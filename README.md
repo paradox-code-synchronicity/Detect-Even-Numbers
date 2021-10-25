@@ -16,8 +16,8 @@ int main() {
     cout << "Enter an integer for endValue: ";
     cin >> endValue;
 // your solution starts here
-    for(startValue=1; startValue <= endValue; startValue++){
-        if(startValue % 2 == 0){
+    for(startValue=1; startValue <= endValue; startValue++){ // use for loop from zero to the number inputted by user input. 
+        if(startValue % 2 == 0){ // detects even numbers and filters out odd numbers
         cout << "Even numbers: " << startValue << endl;
 }
     }
